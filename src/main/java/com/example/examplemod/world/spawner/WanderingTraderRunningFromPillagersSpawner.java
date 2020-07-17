@@ -59,9 +59,11 @@ public class WanderingTraderRunningFromPillagersSpawner
         this.world = world;
 //        this.data = data;
         this.delayBeforeSpawnLogic = 0;
-        this.traderSpawnDelay = 200;
+        this.traderSpawnDelay = 24000;
+//        this.traderSpawnDelay = 200;
 //        this.traderSpawnDelay = data.getGoblinTraderSpawnDelay();
-        this.traderSpawnChance = 99;
+//        this.traderSpawnChance = 99;
+        this.traderSpawnChance = 10;
 //        this.traderSpawnChance = data.getGoblinTraderSpawnChance();
         this.minLevel = Math.min(minLevel, maxLevel);
         this.maxLevel = Math.max(minLevel, maxLevel);
